@@ -1,0 +1,105 @@
+# ==========================================
+# Dependencies
+# ==========================================
+
+node_modules/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# ==========================================
+# Next.js
+# ==========================================
+
+.next/
+out/
+.vercel/
+
+# Next.js build/debug
+next-env.d.ts
+
+# ==========================================
+# Environment variables / secrets
+# ==========================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example environment files
+!.env.example
+
+# ==========================================
+# Go
+# ==========================================
+
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+/bin/
+/build/
+/dist/
+
+# Test binaries
+*.test
+
+# Coverage
+coverage.out
+coverage.html
+
+# Go workspace
+go.work.sum
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# ==========================================
+# OS generated files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Turbo
+# ==========================================
+
+.turbo/
+
+# ==========================================
+# Misc
+# ==========================================
+
+.cache/
