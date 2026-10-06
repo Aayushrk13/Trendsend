@@ -12,9 +12,9 @@ export default function DashboardLayout({
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="flex min-h-screen">
+    <div className="min-h-dvh">
       <Sidebar />
-      <div className="flex-1">
+      <div className="ml-64 min-h-dvh min-w-0">
         <button className="p-4 lg:hidden" onClick={() => setMenuOpen(true)}>
           Menu
         </button>
